@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Take The Superman Challenge"
+     android:textSize="25sp"
+     android:textStyle="bold"/>
+
+ <ImageView
+     android:id="@+id/super6"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:scaleType="centerCrop"
+     android:src="@drawable/super6" />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="For A Chance To Win $ 1 Million"
+     android:textSize="25sp"
+     android:textStyle="bold" />
+
+ <EditText
+     android:id="@+id/name_field"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Enter Name and Email Address:"
+     android:inputType="textCapWords"
+     android:layout_marginBottom="12dp"/>
+
+ <RadioGroup
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"/>
+
+    <RadioButton
+     android:id="@+id/no_radio_button"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/no"
+     android:textAppearance="android:textAppearanceMedium" />
+
+    <RadioButton
+        android:id="@+id/no_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        android:textAppearance="android:textAppearanceMedium" />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="2) Superman's birth name was:"
+     android:textSize="20sp"
+     android:textStyle="bold"/>
+
+  <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="3)What year was Superman first created? ( Pick One )"
+     android:textSize="20sp"
+     android:textStyle="bold"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="4) What State did Superman land on when he first came to America? ( Pick One )"
+     android:textSize="20sp"
+     android:textStyle="bold"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="5)The two writers who created Superman are: ( Check Two )"
+     android:textSize="20sp"
+     android:textStyle="bold"/>
+
+ </LinearLayout>
+
+</ScrollView>
+
