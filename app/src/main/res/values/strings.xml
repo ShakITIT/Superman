@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Superman</string>
-</resources>
+
+    <!-- First Radio Button question.-->
+    <string name="qn1">1) Superman was born on this Planet? ( Pick One )</string>
+
+    <!-- Second Radio Button question.-->
+    <string name="qn2">2) Superman\'s birthname was: ( Pick One )</string>
+
+    <!--Third Radio Button question.-->
+    <string name="qn3">3) What year was Superman first created? ( Pick One )</string>
+
+    <!--The two writer's checkbox.-->
+    <string name="qn4">4) The two writer\'s who created Superman are:</string>
+
+    </resources>

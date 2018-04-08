@@ -41,54 +41,136 @@
      android:inputType="textCapWords"
      android:layout_marginBottom="12dp"/>
 
- <RadioGroup
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn1"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <RadioGroup
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:orientation="vertical"/>
+     android:orientation="vertical">
 
     <RadioButton
-     android:id="@+id/no_radio_button"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:text="@string/no"
-     android:textAppearance="android:textAppearanceMedium" />
-
-    <RadioButton
-        android:id="@+id/no_radio_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/no"
+        android:text="string/no"
         android:textAppearance="android:textAppearanceMedium" />
 
- <TextView
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="2) Superman's birth name was:"
-     android:textSize="20sp"
-     android:textStyle="bold"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="string/no"
+        android:textAppearance="android:textAppearanceMedium" />
 
-  <TextView
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="3)What year was Superman first created? ( Pick One )"
-     android:textSize="20sp"
-     android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
 
- <TextView
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="4) What State did Superman land on when he first came to America? ( Pick One )"
-     android:textSize="20sp"
-     android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/yes_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/yes"
+            android:textAppearance="android:textAppearanceMedium" />
+</RadioGroup>
 
- <TextView
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="5)The two writers who created Superman are: ( Check Two )"
-     android:textSize="20sp"
-     android:textStyle="bold"/>
 
- </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn2"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/yes2_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/yes"
+            android:textAppearance="android:textAppearanceMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn3"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/yes3_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/yes"
+            android:textAppearance="android:textAppearanceMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="string/no"
+            android:textAppearance="android:textAppearanceMedium" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/writers_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/writers_checkbox"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+
+     </LinearLayout>
 
 </ScrollView>
 
