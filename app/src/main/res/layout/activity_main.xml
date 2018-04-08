@@ -63,7 +63,7 @@
  <TextView
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:text="2) Superman's birth name was:"
+     android:text="2) Superman's birth name was"
      android:textSize="20sp"
      android:textStyle="bold"/>
 
