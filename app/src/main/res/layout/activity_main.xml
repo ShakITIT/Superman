@@ -5,17 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
  <TextView
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:text="Take The Superman Challenge"
+     android:text="@string/take_the_superman_challenge"
      android:textSize="25sp"
      android:textStyle="bold"/>
 
@@ -29,7 +38,7 @@
  <TextView
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:text="For A Chance To Win $ 1 Million"
+     android:text="@string/for_a_chance_to_win_1_million"
      android:textSize="25sp"
      android:textStyle="bold" />
 
@@ -37,11 +46,12 @@
      android:id="@+id/name_field"
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:hint="Enter Name and Email Address:"
+     android:hint="@string/enter_name_and_email_address"
      android:inputType="textCapWords"
      android:layout_marginBottom="12dp"/>
 
     <TextView
+        android:id="@+id/question1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/qn1"
@@ -49,6 +59,7 @@
         android:layout_margin="10dp"/>
 
     <RadioGroup
+     android:id="@+id/answer_group1"
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:orientation="vertical">
@@ -56,34 +67,27 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="string/no"
-        android:textAppearance="android:textAppearanceMedium" />
+        android:text="@string/Mars" />
 
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="string/no"
-        android:textAppearance="android:textAppearanceMedium" />
+        android:text="@string/Kryptonite" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/Plutonic" />
 
         <RadioButton
             android:id="@+id/yes_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/yes"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/Krypton" />
 </RadioGroup>
 
-
-
-
-
     <TextView
+        android:id="@+id/question2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/qn2"
@@ -91,6 +95,7 @@
         android:layout_margin="10dp"/>
 
     <RadioGroup
+        android:id="@+id/answer_group2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -99,30 +104,26 @@
             android:id="@+id/yes2_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/yes"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/string_kal_el" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/string_jor_dine" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/string_el_kal" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/string_jor_el" />
     </RadioGroup>
 
-
     <TextView
+        android:id="@+id/question3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/qn3"
@@ -130,6 +131,7 @@
         android:layout_margin="10dp"/>
 
     <RadioGroup
+        android:id="@+id/answer_group3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -137,40 +139,67 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/_1914" />
 
         <RadioButton
             android:id="@+id/yes3_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/yes"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/_1933" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/_1944" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="string/no"
-            android:textAppearance="android:textAppearanceMedium" />
+            android:text="@string/_1950" />
     </RadioGroup>
 
-    <CheckBox
-        android:id="@+id/writers_checkbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/writers_checkbox"
-        android:textAppearance="?android:textAppearanceMedium" />
 
+       <TextView
+             android:id="@+id/question4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/qn4"
+             android:textSize="15sp"
+             android:layout_margin="10dp"/>
 
+             <CheckBox android:id="@+id/checkbox_Jerry"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/jerry_siegel"/>
 
+             <CheckBox android:id="@+id/checkbox_Stephen"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/stephen_spielbergh"/>
+
+             <CheckBox android:id="@+id/checkbox_Stan"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/stan_lee"/>
+
+             <CheckBox android:id="@+id/checkbox_Joe"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/joe_shuster"/>
+
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:onClick="True"
+                 android:text="@string/Get_Score"
+                 android:layout_centerHorizontal="true"/>
 
      </LinearLayout>
 
-</ScrollView>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+     </ScrollView>
+
 

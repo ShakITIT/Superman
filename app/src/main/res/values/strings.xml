@@ -1,16 +1,60 @@
 <resources>
     <string name="app_name">Superman</string>
 
-    <!-- First Radio Button question.-->
+    <string name="take_the_superman_challenge">Take The Superman Challenge</string>
+
+    <string name="for_a_chance_to_win_1_million">For A Chance To Win $ 1 Million</string>
+
+    <!-- Edit text. Name and email.-->
+    <string name="enter_name_and_email_address">Enter Name and Email Address</string>
+
+    <!-- First Radio Button question. And answers below-->
     <string name="qn1">1) Superman was born on this Planet? ( Pick One )</string>
 
-    <!-- Second Radio Button question.-->
+    <!--First Radio Button answer.-->
+    <string name="Mars">Mars</string>
+    <string name="Kryptonite">Kryptonite</string>
+    <string name="Plutonic">Plutonic</string>
+    <string name="Krypton">Krypton</string>
+
+    <!-- Second Radio Button question. And answers below-->
     <string name="qn2">2) Superman\'s birthname was: ( Pick One )</string>
 
-    <!--Third Radio Button question.-->
+    <!--Second Radio Button answers.-->
+    <string name="string_jor_dine">Your message</string>
+    <string name="string_kal_el">Your message</string>
+    <string name="string_el_kal">Your message</string>
+    <string name="string_jor_el">Your message</string>
+
+    <!--Third Radio Button question. And answers below-->
     <string name="qn3">3) What year was Superman first created? ( Pick One )</string>
 
-    <!--The two writer's checkbox.-->
-    <string name="qn4">4) The two writer\'s who created Superman are:</string>
+    <!--Third Radio Button answers.-->
+    <string name="Nineteen_Fourteen">1914</string>
+    <string name="Nineteen_Thirty_Three">1933</string>
+    <string name="Nineteen_Fourty_Four">1944</string>
+    <string name="Nineteen_Fifty">1950</string>
 
-    </resources>
+    <!--Fourth question and answers checkbox.-->
+    <string name="qn4">4) What two writers created Superman:</string>
+
+    <!--Fourth checkbox answers.-->
+    <string name="jerry_siegel">Jerry Siegel</string>
+    <string name="stephen_spielbergh">Stephen Spielbergh</string>
+    <string name="stan_lee">Stan Lee</string>
+    <string name="joe_shuster">Joe Shuster</string>
+
+    <!--Get the score of the Quiz.-->
+    <string name="Get_Score">Get Score</string>
+
+    <string name="Kal_el">Kal_el</string>
+    <string name="Jor_dine">Jor_dine</string>
+    <string name="El_Kal">El_Kal</string>
+    <string name="Jor_el">Jor_el</string>
+    <string name="_1914">Your message</string>
+    <string name="_1933">Your message</string>
+    <string name="_1944">Your message</string>
+    <string name="_1950">1950</string>
+
+
+</resources>
