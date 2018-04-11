@@ -30,8 +30,8 @@
 
  <ImageView
      android:id="@+id/super6"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
      android:scaleType="centerCrop"
      android:src="@drawable/super6" />
 
@@ -163,7 +163,7 @@
              android:id="@+id/question4"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:text="@string/qn4"
+             android:text="What two writers created Superman?"
              android:textSize="15sp"
              android:layout_margin="10dp"/>
 
@@ -190,7 +190,7 @@
         <Button
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
-                 android:onClick="True"
+                 android:onClick="checkAnswers"
                  android:text="@string/Get_Score"
                  android:layout_gravity="center_horizontal"/>
 
