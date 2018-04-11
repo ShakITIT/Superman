@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(),"First toast message",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"Up, Up and Away!",Toast.LENGTH_SHORT).show();
     }
     public void checkAnswers(View view){
         int count = 0; // count of correct answers
@@ -35,9 +35,12 @@ public class MainActivity extends AppCompatActivity {
             count += 1;
         }
         CheckBox q4correct = (CheckBox) findViewById(R.id.checkbox_Jerry);
+        CheckBox q4correct_2 = (CheckBox) findViewById(R.id.checkbox_Joe);
+        boolean q4_2 =  q4correct_2.isChecked();
         boolean q4 = q4correct.isChecked();
-        if (q4){
+        if(q4 && q4_2) {
             count += 1;
+
         }
 
         // TextView finalMessage = (TextView) findViewById(R.id.);
