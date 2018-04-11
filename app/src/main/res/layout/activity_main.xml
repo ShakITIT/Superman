@@ -187,12 +187,12 @@
                  android:layout_height="wrap_content"
                  android:text="@string/joe_shuster"/>
 
-             <Button
+        <Button
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:onClick="True"
                  android:text="@string/Get_Score"
-                 android:layout_centerHorizontal="true"/>
+                 android:layout_gravity="center_horizontal"/>
 
      </LinearLayout>
 

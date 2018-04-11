@@ -21,10 +21,10 @@
     <string name="qn2">2) Superman\'s birthname was: ( Pick One )</string>
 
     <!--Second Radio Button answers.-->
-    <string name="string_jor_dine">Your message</string>
-    <string name="string_kal_el">Your message</string>
-    <string name="string_el_kal">Your message</string>
-    <string name="string_jor_el">Your message</string>
+    <string name="string_jor_dine">Jor-dine</string>
+    <string name="string_kal_el">Kal-el</string>
+    <string name="string_el_kal">El-kal</string>
+    <string name="string_jor_el">Jor-el</string>
 
     <!--Third Radio Button question. And answers below-->
     <string name="qn3">3) What year was Superman first created? ( Pick One )</string>
@@ -51,10 +51,8 @@
     <string name="Jor_dine">Jor_dine</string>
     <string name="El_Kal">El_Kal</string>
     <string name="Jor_el">Jor_el</string>
-    <string name="_1914">Your message</string>
-    <string name="_1933">Your message</string>
-    <string name="_1944">Your message</string>
+    <string name="_1914">1914</string>
+    <string name="_1933">1933</string>
+    <string name="_1944">1944</string>
     <string name="_1950">1950</string>
-
-
 </resources>
