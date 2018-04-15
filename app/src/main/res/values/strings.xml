@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Superman</string>
 
+    <!--First Block of Text.-->
     <string name="take_the_superman_challenge">Take The Superman Challenge</string>
 
+    <!--Block of text under the image.-->
     <string name="for_a_chance_to_win_1_million">For A Chance To Win $ 1 Million</string>
 
     <!-- Edit text. Name and email.-->
@@ -35,7 +37,7 @@
     <string name="Nineteen_Fourty_Four">1944</string>
     <string name="Nineteen_Fifty">1950</string>
 
-    <!--Fourth question and answers checkbox.-->
+    <!--Fourth checkbox question and answers checkbox.-->
     <string name="qn4">4) What two writers created Superman?</string>
 
     <!--Fourth checkbox answers.-->
@@ -47,6 +49,7 @@
     <!--Get the score of the Quiz.-->
     <string name="Get_Score">Get Score</string>
 
+    <!--Additional strings that came up randomly.-->
     <string name="Kal_el">Kal_el</string>
     <string name="Jor_dine">Jor_dine</string>
     <string name="El_Kal">El_Kal</string>
@@ -55,4 +58,5 @@
     <string name="_1933">1933</string>
     <string name="_1944">1944</string>
     <string name="_1950">1950</string>
+
 </resources>
